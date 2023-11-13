@@ -1,0 +1,26 @@
+{
+  "name": "@guagelc/editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.cjs",
+  "type": "module",
+  "module": "./dist/index.mjs",
+  "exports":{
+    ".":{
+      "import":"./dist/index.mjs",
+      "require":"./dist/index.cjs"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "dev": "vite --port 3000",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^3.3.7",
+    "@guagelc/shared":"workspace:*"
+  }
+}

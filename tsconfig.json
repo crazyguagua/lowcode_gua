@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es2017",
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "jsx": "preserve",
+    "paths": {
+      "@guagelc/shared":["./packages/shared"]
+    }
+  },
+  "include": [
+    "apps/**/src/**/*",
+    "apps/**/src/*.vue",
+    "packages/**/src/**/*"
+  ]
+}
